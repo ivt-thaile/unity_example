@@ -36,8 +36,8 @@ class _LoaderScreenState extends State<OrientationScreen> {
             UnityWidget(
               onUnityCreated: onUnityCreated,
               onUnityMessage: onUnityMessage,
-              webUrl: 'http://localhost:6080',
-              useAndroidViewSurface: true,
+              // webUrl: 'http://localhost:6080',
+              // useAndroidViewSurface: true,
             ),
             PointerInterceptor(
               child: Positioned(

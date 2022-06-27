@@ -44,8 +44,8 @@ class _ApiScreenState extends State<ApiScreen> {
                 onUnityMessage: onUnityMessage,
                 onUnitySceneLoaded: onUnitySceneLoaded,
                 fullscreen: false,
-                useAndroidViewSurface: false,
-                webUrl: 'http://localhost:6080',
+                // useAndroidViewSurface: false,
+                // webUrl: 'http://localhost:6080',
               ),
             ),
             PointerInterceptor(
